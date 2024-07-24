@@ -53,7 +53,7 @@ async function sendTransaction(wallet) {
     const tx = {
         to: contractAddress,
         value: 0,
-        gasLimit: ethers.BigNumber.from(250000}),
+        gasLimit: ethers.BigNumber.from(250000),
         gasPrice: ethers.utils.parseUnits("0.12", 'gwei'),
         data: transactionData,
     };
