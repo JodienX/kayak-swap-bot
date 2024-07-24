@@ -1,9 +1,11 @@
 ## Auto-swap-Tx
 
-- Copy all the codes from `script.sh`
 - Open [Codespace](https://github.com/codespaces) or Gitpod
 - Create a new file and name it `script.sh`, also paste all those copied code in this file
 - Use this command to run
+```bash
+wget https://raw.githubusercontent.com/JodienX/morph-auto-tx/main/script.sh
+```
 ```bash
 chmod +x script.sh
 ```
