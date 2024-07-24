@@ -13,12 +13,6 @@ echo
 echo_blue_bold "Enter transaction data (in hex):"
 read transactionData
 echo
-echo_blue_bold "Enter gas limit:"
-read gasLimit
-echo
-echo_blue_bold "Enter gas price (in gwei):"
-read gasPrice
-echo
 echo_blue_bold "Enter number of transactions to send:"
 read numberOfTransactions
 echo
@@ -53,8 +47,8 @@ async function sendTransaction(wallet) {
     const tx = {
         to: contractAddress,
         value: 0,
-        gasLimit: ethers.BigNumber.from(250000),
-        gasPrice: ethers.utils.parseUnits("0.12", 'gwei'),
+        gasLimit: ethers.BigNumber.from(400000),
+        gasPrice: ethers.utils.parseUnits("0.2", 'gwei'),
         data: transactionData,
     };
 
