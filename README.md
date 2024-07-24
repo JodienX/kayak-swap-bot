@@ -1,6 +1,6 @@
 ## Auto-swap-Tx
 
-- Copy all the codes from `kayak-swap.sh`
+- Copy all the codes from `kswap.sh`
 - Open [Codespace](https://github.com/codespaces) or Gitpod
 - Create a new file and name it `kswap.sh`, also paste all those copied code in this file
 - Use this command to run
