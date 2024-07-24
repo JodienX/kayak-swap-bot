@@ -1,14 +1,14 @@
 ## Auto-swap-Tx
 
-- Copy all the codes from `kswap.sh`
+- Copy all the codes from `script.sh`
 - Open [Codespace](https://github.com/codespaces) or Gitpod
-- Create a new file and name it `kswap.sh`, also paste all those copied code in this file
+- Create a new file and name it `script.sh`, also paste all those copied code in this file
 - Use this command to run
 ```bash
-chmod +x kswap.sh
+chmod +x script.sh
 ```
 ```bash
-./kwap.sh
+./script.sh
 ```
 - Done
 
