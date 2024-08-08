@@ -3,7 +3,7 @@
 - Open [Codespace](https://github.com/codespaces) or Gitpod
 - Use this command to run
 ```bash
-wget https://raw.githubusercontent.com/JodienX/morph-auto-tx/main/script.sh
+wget https://raw.githubusercontent.com/JodienX/kayak-swap-bot/main/script.sh
 ```
 ```bash
 chmod +x script.sh
